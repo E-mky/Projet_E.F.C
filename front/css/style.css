@@ -303,7 +303,8 @@ div.logo{
 }
 
 a{
-    font-family: Copperplate;
+    font-family: Roboto Condensed;
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
 }
