@@ -360,9 +360,8 @@ h3{
 }
 
 a{
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 0px;
-
 }
 
 div.header {
@@ -383,6 +382,10 @@ footer {
     text-align:left;
     bottom: 0;
     width: 100%;
+}
+
+a.nav{
+    margin-top: 30px;
 }
 
 
