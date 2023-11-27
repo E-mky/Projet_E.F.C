@@ -3,7 +3,14 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    margin-bottom: 50px;
+}
+
+header {
+    background-color: #101c3c;
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
 }
 
 .categories-wrapper {
@@ -82,16 +89,6 @@ body {
     font-size: 14px;
     font-weight: bold;
     color: #101c3c; 
-}
-
-
-a {
-    text-decoration: none;
-    color: #2ecc71; 
-}
-
-a:hover {
-    color: #27ae60; 
 }
 
 .text-uppercase {
@@ -300,20 +297,13 @@ a:hover {
     font-weight: 300; 
 }
 
-header {
-    background-color: #101c3c;
-    color: #fff;
-    padding: 20px;
-    justify-content: space-between;
-    display: flex;
-}
 
 div.logo{
     margin: 0px 0px 0px 40px;
 }
 
 a{
-    font-family: copperplate;
+    font-family: Copperplate;
     color: #fff;
     text-decoration: none;
 }
