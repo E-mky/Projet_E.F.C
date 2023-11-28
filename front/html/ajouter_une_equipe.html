@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une équipe</title>
+</head>
+<body>
+
+<h2>Ajouter une équipe</h2>
+
+<form action="../../back/php/ajouter_une_equipe.php" method="post">
+    <label for="nomEquipe">Nom de l'équipe :</label>
+    <input type="text" id="nomEquipe" name="nomEquipe" required>
+    
+    <label for="ligue">Ligue :</label>
+    <select id="ligue" name="ligue" required>
+        <option value="Ligue1">Ligue 1</option>
+        <option value="PremierLeague">Premier League</option>
+        <option value="Liga">Liga</option>
+        <option value="SerieA">Serie A</option>
+        <option value="Bundesliga">Bundesliga</option>
+    </select>
+
+    <input type="submit" value="Ajouter">
+</form>
+
+</body>
+</html>
