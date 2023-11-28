@@ -378,15 +378,25 @@ h1 {
 footer {
     background-color: #000000;
     color: #fff;
-    padding: 10px;
     text-align:left;
+    padding: 25px 0px;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
+    margin-top: 150px;
 }
+
+.center{
+    margin-left:100px;
+}
+
 
 a.nav{
     margin-top: 30px;
 }
 
+#logo{
+    margin: 0px 105px;
+    height: 50px;
+}
 
 
