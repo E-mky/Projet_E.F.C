@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url(/front/img/image-fond.png);
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -14,7 +15,7 @@ header {
 }
 
 .categories-wrapper {
-    background-color: #fff;
+    background-color:#ffffff;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
