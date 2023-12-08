@@ -25,6 +25,7 @@ Ce projet E.F.C est une application web conçue pour suivre le classement de foo
 ## Prérequis
 
 mise a jour de la base de donnée
+/back/sql/europefootballclub.sql
 
 ## Installation
 
