@@ -3,6 +3,8 @@
 ## Contributeurs 
 
 - Enzo Makaya 
-- Les autres 
-- La plèbe
-- Génération ptit de la tess tjrs en place 
+- Léo Masson 
+- Thomas Mélèse
+- Mike Laurence
+- Luka Stankovic
+- Romario Petric 
