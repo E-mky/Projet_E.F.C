@@ -4,7 +4,7 @@
   - [Description](#description)
   - [Contributeurs](#contributeurs)
   - [Stack](#stack)
-  - [Prérequis](#prérequis)
+  - [Prérequis](#prérequis) 
   - [Installation](#installation)
 
 ## Description
