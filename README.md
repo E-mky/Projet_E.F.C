@@ -6,7 +6,6 @@
   - [Stack](#stack)
   - [Prérequis](#prérequis)
   - [Installation](#installation)
-  - [Remerciements](#remerciements)
 
 ## Description
 
@@ -34,4 +33,4 @@ mise a jour de la base de donnée
   ```bash
   git clone https://github.com/E-mky/Projet_E.F.C.git
   ```
-
+  
