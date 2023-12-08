@@ -31,6 +31,6 @@ mise a jour de la base de donnée
 - 1. Cloner le projet :
   
   ```bash
-  git clone [URL du dépôt]
+  git clone https://github.com/E-mky/Projet_E.F.C.git
   ```
 
