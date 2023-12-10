@@ -13,7 +13,7 @@ Ce projet E.F.C est une application web conçue pour suivre le classement de foo
 
 ## Contributeurs
 
-- [Nom du contributeur 1](lien GitHub) 
+- E-mky (lien GitHub) 
 
 ## Stack
 
