@@ -1,0 +1,402 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #101c3c;
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.categories-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.tc-widget-standings-style8 {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tc-widget-title {
+    color: #101c3c; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table td:nth-child(3) {
+    font-weight: bold;
+}
+
+.table th:first-child, .table td:first-child {
+    background-color: #f2f2f2; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+
+.team .logo img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.team-details {
+    text-align: left;
+}
+
+.team-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #101c3c; 
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.fsz-13px {
+    font-size: 13px;
+}
+
+.hover-color1:hover {
+    color: #101c3c; 
+}
+
+.la-angle-right {
+    margin-left: 5px;
+}
+
+
+.table td.form {
+    position: relative;
+}
+
+.round {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.round.red {
+    background-color: red;
+}
+
+.round.green {
+    background-color: green;
+}
+
+.round.gray {
+    background-color: gray;
+}
+
+.table td.form {
+    position: relative;
+}
+
+.round {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.round.red {
+    background-color: #fc0504;
+}
+
+.round.green {
+    background-color: #33b214;
+}
+
+.round.gray {
+    background-color: #bcbcbb;
+}
+
+
+.table tr.lightest-gray-row td {
+    background-color: rgba(119, 119, 119, 0.4); 
+    color: #fff; 
+}
+
+.table tr.light-gray-row td {
+    background-color: rgba(102, 102, 102, 0.7); 
+    color: #fff; 
+}
+
+.table tr.dark-gray-row td {
+    background-color: rgba(85, 85, 85, 0.8); 
+    color: #fff; 
+}
+
+
+.table tr:first-child td {
+    background-color: #101c3c; 
+    color: #fff; 
+}
+
+.table tr:first-child td .team-name {
+    color: #fff; 
+}
+
+
+.table tr:first-child td {
+    background-color: #101c3c; 
+    color: #fff; 
+    border: none; 
+}
+
+
+.table tr:first-child td .team-name {
+    color: #fff; 
+}
+
+
+.table tr {
+    border-top: 1px solid #bcbcbc; 
+}
+
+
+.table tr:first-child {
+    border-top: none;
+}
+
+.table tr:nth-child(2) td,
+.table tr:nth-child(3) td,
+.table tr:nth-child(4) td {
+    background-color: #e0dcdc; 
+    border: none; 
+}
+
+
+.table tr:nth-child(2) td .team-name,
+.table tr:nth-child(3) td .team-name,
+.table tr:nth-child(4) td .team-name {
+    color: #101c3c; 
+}
+
+.table tr:nth-child(5) td,
+.table tr:nth-child(6) td {
+    background-color: #e8e4e4; 
+    border: none; 
+}
+
+
+.table tr:nth-child(5) td .team-name,
+.table tr:nth-child(6) td .team-name {
+    color: #101c3c; 
+}
+
+.table tr:nth-child(n+7):nth-child(-n+15) {
+    background-color: #f8f4f4 !important; 
+}
+
+
+.table tr:nth-child(n+7):nth-child(-n+15) .team-name {
+    color: #101c3c !important; 
+}
+
+
+.table tr:nth-child(n+7):nth-child(-n+15) td {
+    border: none !important; 
+}
+
+.table td:first-child {
+    font-size: 12px; 
+}
+
+
+.table tr:nth-child(16) th,
+.table tr:nth-child(16) td {
+    border: none;
+}
+
+
+.table-responsive tbody tr:nth-child(16) td {
+    border-bottom: none;
+}
+
+
+.table tr:nth-child(17) th,
+.table tr:nth-child(17) td {
+    border: none;
+}
+
+
+.table-responsive tbody tr:nth-child(17) td {
+    border-bottom: none;
+}
+
+
+.table tr:nth-child(18) th,
+.table tr:nth-child(18) td {
+    border: none;
+}
+
+
+.table-responsive tbody tr:nth-child(18) td {
+    border-bottom: none;
+}
+
+
+.table td:first-child {
+    font-weight: bold;
+}
+
+
+.table td:first-child, .table td:nth-child(3) {
+    font-size: 16px; 
+}
+
+
+.table td:not(:first-child):not(:nth-child(3)) {
+    font-size: 12px; 
+    font-weight: 300; 
+}
+
+
+div.logo{
+    margin: 0px 0px 0px 40px;
+}
+
+a{
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav:hover{
+    color: #06bf66;
+    transition: ease-in-out 0.6s;
+}
+
+
+button{
+    padding: 15px;
+    margin: 15px 15px 0px 0px;
+    border-radius: 15px;
+    border: none;
+    background: none;
+}
+
+div.centre{
+    margin-top: 30px;
+    justify-content: space-between
+}
+
+#inscription :hover{
+    padding: 15px;
+    margin: 0px;
+    border-radius: 15px;
+    background-color:#00723b;
+    font-weight: bold;
+    color: #fff;
+    transition: ease-in-out 0.6s;
+}
+
+#connexion :hover{
+    padding: 15px;
+    margin: 0px;
+    border-radius: 15px;
+    background-color:#00723b;
+    font-weight: bold;
+    color: #fff;
+    transition: ease-in-out 0.6s;
+}
+
+H1{
+    font-family: copperplate,Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+h3{
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+div.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align:left;
+    padding: 25px 0px;
+    bottom: 0;
+    max-width: 100%;
+    margin-top: 150px;
+}
+
+.center{
+    margin-left:100px;
+}
+
+
+a.nav{
+    margin-top: 30px;
+}
+
+#logo{
+    margin: 0px 105px;
+    height: 50px;
+}
+
+
